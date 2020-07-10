@@ -95,7 +95,7 @@ finishHandler =() => {
      {
        return(
          <div>
-            <h3>Game Over your Final score is {this.state.score} points of {QuizData.length} </h3>
+            <h3>Game Over your Final score is {this.state.score+1} points of {QuizData.length} </h3>
             <p> The correct answer's for the quiz are </p>
           <div>
            <ul>
